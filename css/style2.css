@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.color-resaltado{ color: purple;}
+
+header{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(/img/Kars.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 140px;
+    margin-left: 20px;
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(0, 0, 0, .90);
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px;
+    transition: all .5s;
+}
+
+.nav-menu li a{
+    color: white;
+    font-size: 20px;
+    text-transform: initial;
+    font-weight: 600;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: purple;
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+.banner-text{
+    padding: 0 30px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.banner-text span{
+    color: purple;
+}
+
+.banner-text h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-text h2{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: rgb(53, 1, 53);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+
+footer .container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* A partir de aqui es responsive, antes es vista de Movil. */
+
+@media screen and (min-width: 768px) {
+    .logo{
+        margin-left: 50px;
+    }
+
+    nav{
+        height: 100px;
+    }
+
+    .bar-btn{
+        display: none;
+    }
+
+    .nav-menu{
+        position:relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 30px;
+        transition: none;
+    }
+
+    .nav-menu li a{
+        font-size: 15px;
+    }
+
+}
