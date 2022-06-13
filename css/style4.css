@@ -30,6 +30,10 @@ button:hover{
     background-color: purple;
 }
 
+.color-span{
+    color: purple;
+}
+
 .portada {
 	width: 100%;
 	background: rgb(58, 1, 58);
@@ -90,6 +94,28 @@ button:hover{
 
 .simply-word {
 	font-weight: 300;
+	font-size: 30px;
+}
+
+main {
+	max-width: 1000px;
+	text-align: justify;
+	margin: auto;
+	width: 90%;
+	padding: 30px 0;
+	font-size: 15px;
+	line-height: 28px;
+	text-align: left;
+}
+
+main .regresar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+main button{
 	font-size: 30px;
 }
 
