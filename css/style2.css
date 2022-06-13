@@ -229,7 +229,7 @@ footer .container{
 
     .banner-text{
         padding: 0 30px;
-        margin-top: 150px;
+        margin-top: 100px;
         text-align: center;
         color: white;
     }
@@ -267,7 +267,7 @@ footer .container{
     #Historia .img-container2{
         background-image: url(/img/Discord1Grande.png);
         display: flex;
-        height: 486px;
+        height: 450px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -278,7 +278,35 @@ footer .container{
     #Historia .img-container4{
         background-image: url(/img/discord2Grande.png);
         display: flex;
-        height: 325px;
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Contacto .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Contacto .text{
+        text-align: center;
+        width: 40%;
+        max-width: 1000px;
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    #Contacto .img-container{
+        display: none;
+    }
+
+    #Contacto .img-container2{
+        background-image: url(/img/discord3Grande.png);
+        display: flex;
+        height: 380px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
