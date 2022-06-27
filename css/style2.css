@@ -173,6 +173,53 @@ nav{
     border-radius: 20px;
 }
 
+#Contacto .img-container3{
+background-image: url(/img/wpp1.png);
+    height: 180px;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+    
+#Contacto .img-container4{
+background-image: url(/img/wpp2.png);
+    height: 60px;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+#Importante .container{
+    text-align: center;
+    color: black;
+    background-color: rgba(243, 240, 237);
+}
+
+#Importante .text{
+    margin: 0 20px;
+}
+
+#Importante .text h2{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#Importante .img-container{
+    background-image: url(/img/Wpp3.png);
+    height: 160px;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
 footer{
     background-color: rgb(53, 1, 53);
 }
