@@ -182,7 +182,7 @@ background-image: url(/img/wpp1.png);
     border-radius: 20px;
 }
     
-#Contacto .img-container4{
+#Contacto .img-container5{
 background-image: url(/img/wpp2.png);
     height: 60px;
     width: 375px;
@@ -218,6 +218,91 @@ iframe{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+}
+
+#Importante .img-container3{
+    background-image: url(/img/Wpp4.png);
+    height: 320px;
+    width: 383px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#Importante .img-container5{
+    background-image: url(/img/Wpp5.png);
+    height: 390px;
+    width: 383px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#Importante .img-container7{
+    background-image: url(/img/Wpp6.png);
+    height: 55px;
+    width: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#Marzo27 .container{
+    text-align: center;
+    color: black;
+    background-color: rgba(243, 240, 237);
+}
+
+#Marzo27 .text{
+    margin: 0 20px;
+}
+
+#Marzo27 .text h2{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#Marzo27 .img-container{
+    background-image: url(/img/Wpp7.png);
+    height: 70px;
+    width: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#Marzo27 .img-container3{
+    background-image: url(/img/10.jpg);
+    height: 300px;
+    width: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#Futuro .container{
+    text-align: center;
+    color: white;
+    padding: 200px 12px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.700),
+        rgba(0,0,0,0.700)
+    ), url(/img/jj.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#Futuro .text{
+    margin: 0 20px;
+}
+
+#Futuro .text h2{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
 }
 
 footer{
@@ -350,10 +435,156 @@ footer .container{
         display: none;
     }
 
+    #Contacto .img-container3{
+        display: none;
+    }
+
+    #Contacto .img-container5{
+        display: none;
+    }
+
     #Contacto .img-container2{
         background-image: url(/img/discord3Grande.png);
         display: flex;
         height: 380px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Contacto .img-container4{
+        background-image: url(/img/wpp1.png);
+        display: flex;
+        height: 180px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Contacto .img-container6{
+        background-image: url(/img/wpp2.png);
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Importante .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Importante .text{
+        text-align: center;
+        width: 40%;
+        max-width: 1000px;
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    #Importante .img-container{
+        display: none;
+    }
+
+    #Importante .img-container3{
+        display: none;
+    }
+
+    #Importante .img-container5{
+        display: none;
+    }
+
+    #Importante .img-container7{
+        display: none;
+    }
+
+    #Importante .img-container2{
+        background-image: url(/img/wpp3.png);
+        display: flex;
+        height: 180px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Importante .img-container4{
+        background-image: url(/img/wpp4.png);
+        display: flex;
+        height: 350px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Importante .img-container6{
+        background-image: url(/img/Wpp5.png);
+        display: flex;
+        height: 350px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Importante .img-container8{
+        background-image: url(/img/Wpp6.png);
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Marzo27 .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Marzo27 .text{
+        text-align: center;
+        width: 40%;
+        max-width: 1000px;
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    #Marzo27 .img-container{
+        display: none;
+    }
+
+    #Marzo27 .img-container3{
+        display: none;
+    }
+
+    #Marzo27 .img-container2{
+        background-image: url(/img/Wpp7.png);
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #Marzo27 .img-container4{
+        background-image: url(/img/10.jpg);
+        display: flex;
+        height: 450px;
         flex-direction: column;
         justify-content: center;
         align-items: center;

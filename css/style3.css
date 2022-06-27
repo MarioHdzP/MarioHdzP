@@ -97,7 +97,7 @@ nav{
 }
 
 .banner-text h1{
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 
@@ -106,9 +106,32 @@ nav{
 }
 
 .banner-text h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
 }
+
+.wrapper{
+    background-color: rgb(70, 35, 104);
+}
+
+.img-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    }
+
+.g-img{
+    padding:40px 20px;
+    }
+
+img:hover{
+        opacity:.8;
+        transition:.9s;
+    }
+
+
 /* A partir de aqui es responsive, antes es vista de Movil. */
 
 @media screen and (min-width: 768px) {
